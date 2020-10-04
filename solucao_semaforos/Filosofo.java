@@ -14,7 +14,7 @@ public class Filosofo extends Thread {
     }
 
     public void comFome() {
-        Semaforo.[this.id] = 1;
+        Semaforo.estado[this.id] = 1;
         System.out.println("O Filósofo " + getId() + " está com fome.");
     }
 
